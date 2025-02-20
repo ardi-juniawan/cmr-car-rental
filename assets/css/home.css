@@ -261,11 +261,14 @@ footer{
 
 /* xxl (extra extra large) */
 @media screen and (max-width: 1400px) {
-    .hero-desc{
-        width: 450px;
-    }
+    /* Setup */
     h2{
         font-size: 32px!important;
+    }
+
+    /* Hero */
+    .hero-desc{
+        width: 450px;
     }
     .hero-object{
         width: 60%;
@@ -273,6 +276,8 @@ footer{
     .hero-car{
         width: 75%;
     }
+    
+    /* About Us */
     .aboutus-photo img{
         width: 200px;
         height: 120px;
@@ -283,6 +288,7 @@ footer{
 
 /* xl (extra large) */
 @media screen and (max-width: 1200px) {
+    /* Hero */
     .hero{
         height: 550px;
     }
@@ -298,6 +304,7 @@ footer{
 
 /* lg (large) */
 @media screen and (max-width: 992px) {
+    /* Hero */
     .hero-object{
         left: 550px;
     }
@@ -307,9 +314,13 @@ footer{
     .dropdown-menu{
         border: none;
     }
+
+    /* Infografis */
     .infografis-container{
         width: 90%;
     }
+
+    /* About Us */
     .aboutus-container{
         flex-direction: column;
     }
@@ -323,6 +334,8 @@ footer{
     .aboutus-photo{
         justify-content: center;
     }
+
+    /* Contact Us */
     .contactus-maps iframe{
         width: 380px;
         height: 380px;
@@ -334,6 +347,7 @@ footer{
 
 /* md (medium) */
 @media screen and (max-width: 768px) {
+    /* Hero */
     .hero-desc{
         margin-top: -10px;
         width: 312px;
@@ -352,16 +366,21 @@ footer{
         top: 100px;
         left: 200px;
     }
+
+    /* About Us */
     .aboutus-desc p{
         margin-right: 20px;
     }
+
+    /* Term and Condition */
     .tnc-desc{
         flex-direction: column!important;
         margin: 0 10px 0 20px;
     }
+
+    /* Contact Us */
     .contactus-content{
-        flex-direction: column!important;
-        
+        flex-direction: column!important; 
     }
     .contactus-maps{
         text-align: center;
@@ -375,6 +394,8 @@ footer{
         padding: 10px;
         border-radius: 10px;;
     }
+
+    /* Footer */
     .footer-container{
         flex-direction: column-reverse!important;
     }
@@ -388,6 +409,12 @@ footer{
 
 /* sm (small) */
 @media screen and (max-width: 576px) {
+    /* Setup */
+    h2{
+        font-size: 20px!important;
+    }
+
+    /* Hero */
     .hero-desc{
         margin-top: -10px;
         width: 312px;
@@ -395,9 +422,6 @@ footer{
     .hero-desc p{
         width: 278px;
         font-size: 12px;
-    }
-    h2{
-        font-size: 20px!important;
     }
     .hero-object{
         display: none;
@@ -409,21 +433,31 @@ footer{
         top: 100px;
         left: 0;
     }
-    .btn-hero{
+    .hero-cta-btn{
         font-size: 12px;
     }
+
+    /* About Us */
     .aboutus-photo img{
         width: 150px;
         height: 100px;
     }
-    .aboutus-desc p,
+    .aboutus-desc p{
+        font-size: 14px;
+    }
+
+    /* Term and Condition */
     .tnc-col p{
         font-size: 14px;
     }
+
+    /* Contact Us */
     .contactus-maps iframe{
         width: 300px;
         height: 280px;
     } 
+    
+    /* Footer */
     .footer-container{
         margin-left: 20px;
     }
