@@ -398,6 +398,7 @@ footer{
     /* Footer */
     .footer-container{
         flex-direction: column-reverse!important;
+        align-items: start!important;
     }
     .footer-copyright p{
         font-size: 14px;
