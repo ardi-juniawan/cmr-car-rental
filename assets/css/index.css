@@ -3,6 +3,7 @@
     --bg-primary-color: #F6F4F5;
     --bg-secondary-color: #578FCA;
     --bg-fill: #FFFFFF;
+    --color-fill: #D2CFD0;
 }
 
 body{
@@ -259,6 +260,7 @@ footer{
 }
 /* ---------- End Footer ---------- */
 
+/* ---------- Media Query ---------- */
 /* xxl (extra extra large) */
 @media screen and (max-width: 1400px) {
     /* Setup */

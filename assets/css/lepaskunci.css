@@ -1,0 +1,51 @@
+.title{
+    margin-top: 85px;
+}
+
+.card{
+    margin: 2rem 0;
+    width: 360px;
+}
+.group-card-logo{
+    color: var(--color-fill);
+}
+
+/* ---------- Media Query ---------- */
+/* xxl (extra extra large) */
+@media screen and (max-width: 1400px) {
+    
+}
+
+
+
+/* xl (extra large) */
+@media screen and (max-width: 1200px) {
+   
+}
+
+
+
+/* lg (large) */
+@media screen and (max-width: 992px) {
+    
+
+}
+
+
+
+/* md (medium) */
+@media screen and (max-width: 768px) {
+    
+}
+
+
+
+/* sm (small) */
+@media screen and (max-width: 576px) {
+    h1{
+        font-size: 32px!important;
+    }
+    .title-container p{
+        font-size: 14px!important;
+    }
+}

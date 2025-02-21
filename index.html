@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Testing</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/index.css">
   </head>
   <body>
     <!-- Header Section -->
-    <nav class="navbar navbar-expand-lg border-bottom fixed-top bg-header">
+    <nav class="navbar navbar-expand-lg border-bottom fixed-top header bg-header">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/Jayamahe icon 1.png" alt="Bootstrap" width="123" height="58">
@@ -28,7 +28,7 @@
                         Service
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item body-large-regular" href="#">Rental Mobil Lepas Kunci</a></li>
+                        <li><a class="dropdown-item body-large-regular" href="lepaskunci.html">Rental Mobil Lepas Kunci</a></li>
                         <li><a class="dropdown-item body-large-regular" href="#">Rental Mobil dengan Driver</a></li>
                         <li><a class="dropdown-item body-large-regular" href="#">Airport Transfer</a></li>
                         <li><a class="dropdown-item body-large-regular" href="#">Paket Tour</a></li>
@@ -190,7 +190,11 @@
                <p class="body-medium-semibold color-white">&copy2025 CMR. Support By Jayamahe</p> 
             </div>
             <div class="visitor">
-                <p class="body-medium-regular text-white">Total Visitor : <span id="totalVisitors">0</span> | Visitor Hari Ini : <span id="todayVisitors">0</span></p>
+                <span class="color-white visitorbadge">
+                    <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fcmr-car-rental.vercel.app%2F"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fcmr-car-rental.vercel.app%2F&label=Total%20Visitor&labelColor=%23578fca&countColor=%23f6f4f5&style=flat&labelStyle=none" /></a>
+                    
+                    <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fcmr-car-rental.vercel.app%2F"><img src="https://api.visitorbadge.io/api/daily?path=https%3A%2F%2Fcmr-car-rental.vercel.app%2F&label=Total%20Visitor&labelColor=%23578fca&countColor=%23f6f4f5&style=flat&labelStyle=none" /></a>
+                </span>
             </div>
             <div class="footer-socmed d-flex flex-row">
                 <div class="socmed-item mx-1">
@@ -217,6 +221,5 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
   </body>
 </html>
