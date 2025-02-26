@@ -12,11 +12,7 @@ body{
 }
 
 /* ---------- Setup ---------- */
-p{
-    margin: 0;
-    hyphens: auto;
-    word-break: break-word;
-}
+
 .button-primary{
     background-color: var(--bg-secondary-color)!important;
     color: var(--bg-fill)!important;
@@ -219,6 +215,9 @@ h6{
 .aboutus-photo img{
     margin:5px;
 }
+.aboutus-desc p{
+    text-align: justify;
+}
 /* ---------- End About Us ---------- */
 
 
@@ -226,6 +225,9 @@ h6{
 /* ---------- Term and Condition ---------- */
 .tnc-col{
     margin: 0 20px;
+}
+.tnc-col p{
+    text-align: justify;
 }
 /* ---------- End Term and Condition ---------- */
 
